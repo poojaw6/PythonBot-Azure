@@ -1,0 +1,18 @@
+{
+    "name": "EchoBot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "ffde3360-b78f-11ea-af54-57405bd80792",
+            "name": "http://localhost:3978/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "C:\\Users\\pwalavalkar\\Downloads\\PythonBot\\EchoBot\\EchoBot.bot"
+}

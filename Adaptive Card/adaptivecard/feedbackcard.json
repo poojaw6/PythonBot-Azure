@@ -1,0 +1,101 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0",
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Chatbot Review",
+            "size": "medium",
+            "weight": "bolder"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Did you like the chatbot experience?",
+            "wrap": true
+        },
+        {
+            "type": "ImageSet",
+            "imageSize":"medium",
+            "images": [
+                {
+                    "type":"Image",
+                    "url": "C:/Users/pwalavalkar/Downloads/PythonBot/LuisWeatherBot/good.png"
+                },
+                {
+                    "type":"Image",
+                    "url": "C:/Users/pwalavalkar/Downloads/PythonBot/LuisWeatherBot/bad.png"
+                }
+            ]
+        }
+
+    ],
+    "actions": [
+        {
+            "type": "Action.ShowCard",
+            "title": "Good",
+            "size":"small",
+            "card":{
+                "type":"AdaptiveCard",
+                "body": [
+                    {
+                        "type":"TextBlock",
+                        "text":"Please leave me a feedback",
+                        "size": "medium",
+                        "wrap": true
+                    },
+                    {
+                        "type":"Input.Text",
+                        "id":"GoodFeedback",
+                        "isMultiline": true,
+                        "placeholder": "Type your feedback here"
+
+                    }
+                ],
+                "actions": [
+                    {
+                        "type":"Action.Submit",
+                        "title":"Submit",
+                        "data":{
+                            "Review":"Good"
+                        }
+                    }
+                ],
+                "$schema":"http://adaptivecards.io/schemas/adaptive-card.json"
+            }
+        },
+        {
+            "type": "Action.ShowCard",
+            "title": "Bad",
+            "card":{
+                "type":"AdaptiveCard",
+                "body": [
+                    {
+                        "type":"TextBlock",
+                        "text":"Please leave me a feedback",
+                        "size": "medium"
+                    },
+                    {
+                        "type":"Input.Text",
+                        "id":"BadFeedback",
+                        "isMultiline": true,
+                        "placeholder": "Type your feedback here"
+
+                    }
+                ],
+                "actions": [
+                    {
+                        "type":"Action.Submit",
+                        "title":"Submit",
+                        "data":{
+                            "Review":"Bad"
+                        }
+                    }
+                ],
+                "$schema":"http://adaptivecards.io/schemas/adaptive-card.json"
+            }
+        }
+
+    ]
+
+}

@@ -1,0 +1,18 @@
+{
+    "name": "testbot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "https://pythonweatherapp.azurewebsites.net/api/messages",
+            "id": "fa967920-bb73-11ea-9646-69f3e59b7c86",
+            "name": "https://pythonweatherapp.azurewebsites.net/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "C:\\Users\\pwalavalkar\\Downloads\\PythonBot\\EchoBot\\testbot.bot"
+}

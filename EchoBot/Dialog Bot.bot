@@ -1,0 +1,18 @@
+{
+    "name": "Dialog Bot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "1a5d0c90-baa4-11ea-a93c-fb7e8240f7e7",
+            "name": "http://localhost:3978/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "C:\\Users\\pwalavalkar\\Downloads\\PythonBot\\EchoBot\\Dialog Bot.bot"
+}
